@@ -19,7 +19,7 @@ gem "sass-rails", ">= 6"
 gem "simple_form"
 gem "simple_form-tailwind"
 gem "table_print"
-gem "turbolinks"
+gem "hotwire-rails"
 gem "webpacker", "6.0.0.beta.6"
 
 group :development, :test do

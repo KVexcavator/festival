@@ -1,4 +1,4 @@
-
+<%= turbo_frame_tag(dom_id(concert)) do %>
 <%= simple_form_for(@concert) do |f| %>
   <article class="my-4">
     <div class="grid gap-4 grid-cols-5">
@@ -31,4 +31,5 @@
   <%= f.error_notification %>
   <%= f.error_notification message: f.object.errors[:base].to_sentence if f.object.errors[:base].present? %>
 
+<% end %>
 <% end %>
